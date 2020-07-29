@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	float: right;
+	margin: 10px 20px;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 5px 15px;
+	border: 1px solid black;
+	color: black;
+	font-family: 'Proza Libre', sans-serif;
+}
+ul li a:hover{
+	background: gray;
+	color: white;
+	transition: .5s;
+}
+img{
+	width: 120px;
+}
+.logo{
+	float: left;
+	display: inline-block;
+}
+header{
+	background-image: url(https://481xy61dp22v2uqbx85ez1tw-wpengine.netdna-ssl.com/wp-content/uploads/2016/02/No-Branding-Header-Background-1-300x79.jpg);
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.title h2{
+	color: pink;
+	font-size: 60px;
+}
+.btn{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.btn a{
+	color: red;
+	text-decoration: none;
+	font-size: 20px;
+	border: 1px solid gray;
+	margin: 0 5px;
+	padding: 5px 15px;
+}
+.btn a:hover{
+	color: white;
+	background: gray;
+	transition: .5s;
+}
